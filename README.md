@@ -19,8 +19,6 @@ Como lo optimice:
 Para optimizar el codigo use algunas funciones de Python como:
 - join: Con esta funcion junte en una cadena las secuencias correspondientes a las distintas para despues detectar si en alguna de las subcadenas se repetia 4 veces una letra lo que me ahorro tener que usar la variable auxiliar
 - any: Indica si en alguno de los casos dados (pasados como bucles for) se cumple cierta condicion
-Además 
+Además ingrese la verificacion del adn en una funcion a la cual se le pasa la secuencia a testear ya como cadena.
 
 
-
-# Como correrlo
