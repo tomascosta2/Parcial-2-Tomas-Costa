@@ -1,5 +1,7 @@
 def test(adn):
     def esMutante(secuencia):
+        # secuencia[i:i+4] es como un "slice"
+        # A * 4 = AAAA
         return any(secuencia[i:i+4] == secuencia[i]*4 for i in range(len(secuencia)-3))
 
     # Filas
@@ -20,12 +22,7 @@ def test(adn):
     return False
 
 
-adn = ["ATGCGA", 
-       "CDGTGC", 
-       "TTATST", 
-       "AGAAGG", 
-       "CCCDTA", 
-       "TCACTG"]
+adn = ["ATGCGA", "CDGTGC", "TTATST", "AGAAGG", "CCCDTA", "TCACTG"]
 
 if test(adn):
     print("La persona es mutante.")
