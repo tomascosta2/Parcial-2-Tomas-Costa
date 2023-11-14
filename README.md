@@ -1,7 +1,7 @@
 # Parcial-2-Tomas-Costa
 
 # Nombre: Tomás Costa
-# Legajo:
+# Legajo: 51698
 # Email: tomascostapp@gmail.com 
 # DNI: 44.625.800
 
