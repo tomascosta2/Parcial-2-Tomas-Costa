@@ -22,7 +22,20 @@ def test(adn):
     return False
 
 
-adn = ["ATGCGA", "CDGTGC", "TTATST", "AGAAGG", "CCCDTA", "TCACTG"]
+# adn = ["ATGCGA", "CDGTGC", "TTATST", "AGAAGG", "CCCDTA", "TCACTG"]
+
+adn = []
+letras = 'ACGT'
+
+while(len(adn) < 6) :
+    print('Ingrese el subadn')
+    aux = input()
+    if len(aux) == 6 and any(aux[j] in letras for j in range(1,len(aux))) :
+        adn.append(aux)
+    else :
+        print('El subadn debe tener 6 caracteres y solo puede contener las letras A,C,G y T por favor ingreselo de nuevo')
+        
+
 
 if test(adn):
     print("La persona es mutante.")

@@ -21,4 +21,8 @@ Para optimizar el codigo use algunas funciones de Python como:
 - any: Indica si en alguno de los casos dados (pasados como bucles for) se cumple cierta condicion
 Además ingrese la verificacion del adn en una funcion a la cual se le pasa la secuencia a testear ya como cadena.
 
-
+# Como correrlo
+- Clonar el repositorio
+- Acceder al directorio del proyecto
+- Ejecutar el siguiente comando:
+	python main.py o python3 main.py
